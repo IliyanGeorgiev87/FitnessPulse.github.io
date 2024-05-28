@@ -1,0 +1,288 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0%;
+}
+/*nav*/
+.RedRibbon{
+    background-color: #D7263D;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.blackline{
+    background-color: #141414;
+    width: 100%;
+    height: 10px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.navList {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#menubutton{
+    color: #141414;
+    font-size: 46px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    transition: text-shadow 0.2s ease;
+}
+#menubutton:hover{
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+/*падащо меню*/
+.dropbtn {
+    font-size: 42px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*нещата в падаща меню*/
+.dropdown-content {
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    background-color: #141414;
+    top: 100px;
+    z-index: 1;
+}
+/*типове зали*/
+.dropdown-content a {
+    color: white;
+    font-size: 36px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.dropdown-content a:hover {
+    color: #D7263D;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*footer*/
+.LogoRed{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin-right: auto;
+}
+/*footer*/
+.fotterMainDiv {
+    width: 100%;
+    display: flex;
+    background-color: #141414;
+}
+.footer {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+.socialHeading {
+    font-family: "Murecho", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    color: white;
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.soclink{
+    display: flex;
+    align-items: center;
+}
+.links{
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    word-spacing: 1px;
+    margin-top: -20px;
+    position: relative;
+}
+.links:hover{
+    color: #D7263D;
+}
+.socialLogo{
+    width: 35px;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+/*header*/
+.MainImg{
+    position: relative;
+    width: 100%;
+}
+.MainImg img {
+    display: block;
+    width: 100%;
+}
+.heading{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    color: white;
+
+    font-size: 180px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+.varnap{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    color: white;
+
+    font-size: 180px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 40px;
+}
+/*samo za glavna str.*/
+.introduction{
+    display: flex;
+}
+/*content*/
+.timetable{
+    text-align: center;
+    font-size: 120px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+hr{
+    width: 35%;
+}
+/*tablici*/
+.description{
+    font-size: 50px;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+    text-align: center;
+}
+.attention{
+    font-size: 40px;
+    font-family: Arial, Helvetica;
+    margin-left: 200px;
+}
+table{
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    
+    width: 80%;
+    padding: 10px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+    border-collapse: collapse;
+    border: 3px solid #141414;
+    table-layout: fixed;
+    
+}
+/*граници*/
+table tr {
+    border-bottom: 3px solid #141414; 
+}
+td,th{
+    border: 2px solid #141414; 
+}
+/*граници*/
+
+/*styles*/
+.tableHeadingRow{
+    background-color: #D7263D;
+    color: white;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.startingcolomn{
+    width: 40%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sgr{
+    width: 35%;
+    height: 60px;
+    font-size: 42px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*styles*/
+
+/*таблиците почерняват*/
+table tr:not(.tableHrow):hover 
+td:not(.startingcolomn)
+{
+    background-color: #f5f5f5;
+    filter: brightness(90%);
+    overflow: hidden;
+}
+/*цветове*/
+#redT{/*червен текст*/
+    color: #D7263D;
+    font-size: 42px;
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+}
+#yellow{
+    background-color: #ffca3a;
+}
+#green{
+    background-color: #8ac926;
+}
+#blue{
+    background-color: #1982c4;
+    color: white;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Pulse timetable</title>
+
+    <link rel="icon" type="image/x-icon" href="images/PulseRed.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Murecho:wght@100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="timetable.css">
+</head>
+<body>
+    
+    <section>
+        <div class="RedRibbon">
+            <img src="images/PulseBlack.png" class="logo" alt="Logo black">
+            <div class="navList">
+                <span><a href="index.html" id="menubutton">Начало</a></span>
+                <span class="dropdown">
+                    <p id = "menubutton">Зали</p>
+                    <div class="dropdown-content">
+                        <a href="strength.html">Фитнес</a>
+                        <a href="cardio.html">Кардио</a>
+                        <a href="gymn.html">Гимнастика</a>
+                        <a href="yoga.html">Йога</a>
+                    </div>
+                </span>
+                <span><a href="prices.html" id="menubutton">Цени</a></span>
+                <span><a href="timetable.html" id="menubutton">График</a></span>
+                <span><a href="contact.html" id="menubutton">Контакти</a></span>
+            </div>
+        </div>
+        <div class="blackline"></div>
+    </section>
+    
+    <section>
+        <div class = "MainImg">
+                
+            <img src = "images/mainimg.jpg" alt = "fitness">
+                 
+                <div class="blured">
+                    <h1 class="heading">Gym Pulse</h1>
+                    <p class="varnap">VARNA</p>
+                 </div>
+                 
+                 <div class="blackline"></div>
+            
+            </div>
+        </section>
+
+    <!--Начало-->
+    <section>
+        <h1 class="timetable">График</h1>
+        <hr>
+    </section>
+    <!--Тавлици-->
+    <section>
+        <!--Кардио,гимн.-->
+        <div>
+            <p class="description">Тренировки  фитнес зала кардио и гимнастика
+            <u><b>с инструктор</b></u>:
+            </p>
+            <table>
+                <tr class="tableHeadingRow">
+                    <td class="startingcolomn">Час/Ден</td>
+                    <th class="sgr">Пон.</th>
+                    <th class="sgr">Вт.</th>
+                    <th class="sgr">Ср.</th>
+                    <th class="sgr">Четв.</th>
+                    <th class="sgr">Пет.</th>
+                    <th class="sgr">Съб.</th>
+                    <th class="sgr">Нед.</th>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">7 - 8ч.</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">8 - 9ч.</td>
+                    <td class="sgr" colspan="7" id = "yellow">Kaрдио с Красимира Стойчева</td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">9 - 10ч.</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">10 - 11ч.</td>
+                    <td class="sgr" id = "green">Гимн...</td>
+                    <td class="sgr"></td>
+                    <td class="sgr" id = "green">Гимн...</td>
+                    <td class="sgr"></td>
+                    <td class="sgr" id = "green" colspan="3"> Гимнастика с Десислава Златева</td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">11 - 12ч.</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">12 - 13ч.</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr" rowspan="2" colspan="2" id = "green">Гимнастика с Десислава Златева</td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">13 - 14ч.</td>
+                    <td class="sgr" id = "yellow" colspan="5">Kaрдио с Красимира Стойчева</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">14 - 15ч.</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">15 - 16ч.</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">16 - 17ч.</td>
+                    <td class="sgr" colspan="5" id="yellow">Kaрдио с Красимира Стойчева</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+                <tr class="row">
+                    <td class="startingcolomn">17 - 18ч.</td>
+                    <td class="sgr" colspan="5" id="yellow">Кардио с Красимира Стойчева</td>
+                    <td class="sgr"></td>
+                    <td class="sgr"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    </section>
+    <!--Йога-->
+    <section>
+        <p class="description">Тренировки йога(
+            <u><b>с общ инструктор</b></u>):
+        </p>
+        <table>
+            <tr class="tableHeadingRow">
+                <td class="startingcolomn">Час/Ден</td>
+                <th class="sgr">Пон.</th>
+                <th class="sgr">Вт.</th>
+                <th class="sgr">Ср.</th>
+                <th class="sgr">Четв.</th>
+                <th class="sgr">Пет.</th>
+                <th class="sgr">Съб.</th>
+                <th class="sgr">Нед.</th>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">7 - 8ч.</td>
+                <td class="sgr" colspan="5" id="blue">Йога с Антоанета Дойчева</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">8 - 9ч.</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">9 - 10ч.</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">10 - 11ч.</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">11 - 12ч.</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">12 - 13ч.</td>
+                <td class="sgr" colspan="7" id="blue">Йога с Антоанета Дойчева</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">14 - 15ч.</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">15 - 16ч.</td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+                <td class="sgr"></td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">16 - 17ч.</td>
+                <td class="sgr" colspan="7" rowspan="2" id="blue">Йога с Антоанета Дойчева</td>
+            </tr>
+            <tr class="row">
+                <td class="startingcolomn">17 - 18ч.</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <div>
+            <p id ="redT">*Възмножни са промени в графика, поради частни клиенти, наемащи зала !</p>
+        </div>
+    </section>
+    <!--footer-->
+    <section>
+        <footer>
+        <div class="fotterMainDiv">
+            <div class="footer">
+                <h2 class="socialHeading">Социални мрежи:</h2>
+                <div class="soclink"><a href = "https://www.instagram.com/" class="links">Instagram<img src = "images/instagram.png" class="socialLogo"></a><br></div>
+                <div class="soclink"><a href = "https://www.facebook.com/?locale=bg_BG" class="links">Facebook<img src = "images/facebook.png" class="socialLogo"></a><br></div>
+                <div class="soclink"><a href = "https://www.tiktok.com/explore" class="links">TikTok<img src = "images/tiktok.png" class="socialLogo"></a><br></div>
+            </div>
+            <div class="footer">
+                <h2 class="socialHeading">Оставете вашето мнение на:</h2>
+                <a href = "https://maps.app.goo.gl/5eHeW5nwWj8Txizq6" class="links">Google maps</a><br>
+                <a href = "https://stavali.com/" class="links">Stavali.com</a><br>
+            </div>
+            <div class="footer">
+                <h2 class="socialHeading">Още:</h2>
+                <a href = "history.html" class="links">История</a><br>
+                <a href = "rules.html" class="links">Правила</a><br>
+                <a href = "projects.html" class="links">Проекти</a><br>
+        </div>
+        </footer>
+    </section>
+</body>
+</html>
